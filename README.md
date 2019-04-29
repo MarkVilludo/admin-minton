@@ -4,7 +4,7 @@ Template for CMS
 ###Installation
 
 ```
-composer install https://github.com/MarkVilludo/admin-minton.git
+composer require mark-villudo/admin-minton
 ```
 
 ###Publish Assets and views
