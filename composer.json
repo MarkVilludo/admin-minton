@@ -1,0 +1,23 @@
+{
+    "name": "mark-villudo/admin-minton",
+    "description": "Laravel package for admin minton CMSs",
+    "keywords": [
+        "laravel",
+        "cms",
+        "admin-minton"
+    ],
+    "authors": [
+        {
+            "name": "Mark Villudo"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "MarkVilludo\\AdminMinton\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
