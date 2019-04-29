@@ -19,5 +19,15 @@
             "MarkVilludo\\AdminMinton\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarkVilludo\\AdminMinton\\ServiceProvider"
+            ],
+            "aliases": {
+                "AdminMinton": "MarkVilludo\\AdminMinton\\Facade"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
