@@ -35,7 +35,9 @@ class ServiceProvider extends BaseServiceProvider {
      */
     public function register()
     {
-      
+        $this->app->bind('AdminMinton', function() {
+            return new AdminMinton();
+        });
     }
 
 }
