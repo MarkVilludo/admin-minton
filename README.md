@@ -1,4 +1,7 @@
 ## Admin-minton
+## CMS
+## Laravel CMS
+
 Template for CMS
 
 ###Installation
@@ -20,4 +23,4 @@ MarkVilludo\AdminMinton\ServiceProvider::class,
 php artisan vendor:publish --provider="MarkVilludo\AdminMinton\ServiceProvider" --tag="views"
 
 php artisan vendor:publish --provider="MarkVilludo\AdminMinton\ServiceProvider" --tag="assets"
-``
+```
